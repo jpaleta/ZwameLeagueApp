@@ -1,0 +1,56 @@
+﻿
+@using ZwameLeagueApp.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="jumbotron">
+    <h1>Jornada X</h1>
+    <h3>01/11/2015 - 08/11/2015</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <p>
+                Quiroga - Contarim<br />
+                Culebra - Dark
+            </p>
+        </div>
+        <div class="col-md-4">
+            <p>
+                Kirst - MafiaPT<br />
+                Guazzelli - VS
+            </p>
+        </div>
+        <div class="col-md-4">
+            <p>
+                JohnyB - KingP<br />
+                Isento: bizk0it0
+            </p>
+        </div>
+    </div>
+
+    <p class="lead">Se já jogaste o teu jogo nesta jornada, insere o resultado caso ainda não o tenhas feito.</p>
+    <p><a href="#" class="btn btn-primary btn-lg">Inserir Resultado &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2><i class="fa fa-gamepad"></i> Jornadas</h2>
+        <p>
+            Consulta aqui toda a calendarização referente às jornadas da Liga Zwame FUT16.<br />
+            Poderás ver os resultados de todos os jogos já realizados e/ou os que faltam realizar.<br /> Caso sejas um dos participantes da liga, poderás actualizar o resultados dos teus jogos. Todas as alterações terão impacto directo na classificação.
+        </p>
+        <p><a class="btn btn-default" href="#">Consultar &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2><i class="fa fa-sort-numeric-asc"></i> Classificação</h2>
+        <p>Aqui poderás consultar a classificação actualizada de todas as equipas participantes na Liga Zwame FUT16.</p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Classification")">Consultar &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2><i class="fa fa-group"></i> Membros</h2>
+        <p>Nesta área poderás consultar em detalhe todos os membros que participam na Liga Zwame FUT16.</p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Members")" >Consultar &raquo;</a></p>
+    </div>
+</div>
