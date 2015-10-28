@@ -22,6 +22,8 @@ namespace ZwameLeagueApp.Controllers
 
             if(username == "biz@live.com.pt" && password == "123")
                 Session.Add("user", "bizk0it0");
+            else
+                ViewBag.LoginError = "Email ou Password inválidos. Por favor tenta novamente.";
 
             return RedirectToAction("Index", "Home");
         }

@@ -30,6 +30,8 @@ $(function () {
             $('#newpass').addClass("hidden");
         }
     });
+
+
     
 
 });

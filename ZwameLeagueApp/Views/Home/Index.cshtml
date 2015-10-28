@@ -8,30 +8,31 @@
 
 <div class="jumbotron">
     <h1>Jornada X</h1>
-    <h3>01/11/2015 - 08/11/2015</h3>
+    <h4>01/11/2015 - 08/11/2015</h4>
+    <div class="divider d20"></div>
     <div class="row">
         <div class="col-md-4">
-            <p>
+            <p class="home-txt">
                 Quiroga - Contarim<br />
                 Culebra - Dark
             </p>
         </div>
         <div class="col-md-4">
-            <p>
+            <p class="home-txt">
                 Kirst - MafiaPT<br />
                 Guazzelli - VS
             </p>
         </div>
         <div class="col-md-4">
-            <p>
+            <p class="home-txt">
                 JohnyB - KingP<br />
                 Isento: bizk0it0
             </p>
         </div>
     </div>
-
-    <p class="lead">Se já jogaste o teu jogo nesta jornada, insere o resultado caso ainda não o tenhas feito.</p>
-    <p><a href="#" class="btn btn-primary btn-lg">Inserir Resultado &raquo;</a></p>
+    <div class="divider d20"></div>
+    <p class="lead home-txt">Se já jogaste o teu jogo nesta jornada, insere o resultado caso ainda não o tenhas feito.</p>
+    <p><a href="#" data-toggle="modal" data-target="#resultModal" class="btn btn-primary btn-lg">Inserir Resultado &raquo;</a></p>
 </div>
 
 <div class="row">
@@ -41,7 +42,7 @@
             Consulta aqui toda a calendarização referente às jornadas da Liga Zwame FUT16.<br />
             Poderás ver os resultados de todos os jogos já realizados e/ou os que faltam realizar.<br /> Caso sejas um dos participantes da liga, poderás actualizar o resultados dos teus jogos. Todas as alterações terão impacto directo na classificação.
         </p>
-        <p><a class="btn btn-default" href="#">Consultar &raquo;</a></p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Journeys")">Consultar &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2><i class="fa fa-sort-numeric-asc"></i> Classificação</h2>

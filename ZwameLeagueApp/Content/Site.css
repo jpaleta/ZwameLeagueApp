@@ -34,6 +34,10 @@ input{
     max-width:100%;
 }
 
+.home-txt {
+    font-size:15px;
+}
+
 #avatar {
     text-align: center;
     background-size: 100% 100%;
@@ -118,6 +122,34 @@ input{
     text-align: center;
     font-size: 15px;
     line-height: 30px !important;
+}
+
+.journey {
+    width:1300px !important; 
+    margin:50px;
+}
+
+.slide-body {
+    background-color: #e1e1e1;
+    border-radius: 5px;
+}
+
+.journey-table{
+    width: 15%;
+}
+
+.journey-table td {
+    background-color:white;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+}
+
+.edit {
+    background-color:#e1e1e1 !important;
+}
+
+.editmode {
+cursor:pointer;
 }
 
 /*SWITCH*/
